@@ -1,0 +1,33 @@
+{
+  "name": "solseeker-engine",
+  "version": "0.1.0",
+  "description": "Open-source Solana Seeker runtime and DePIN reward telemetry engine for regular mobile devices and emulators.",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "solseeker": "bin/solseeker.js"
+  },
+  "scripts": {
+    "start": "node src/cli/index.js start",
+    "status": "node src/cli/index.js status",
+    "rewards": "node src/cli/index.js rewards",
+    "test": "node --test tests/**/*.test.js",
+    "cli": "node src/cli/index.js"
+  },
+  "keywords": [
+    "solana",
+    "seeker",
+    "depin",
+    "mobile-wallet-adapter",
+    "seed-vault",
+    "web3",
+    "rewards",
+    "helium",
+    "grass"
+  ],
+  "author": "0xalydev <agentai891@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
