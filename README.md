@@ -101,6 +101,8 @@ The project has zero external runtime dependencies and uses Node's native test r
 npm test
 ```
 
+For a persistent Android installation, see the [Termux setup guide](docs/ANDROID_TERMUX_GUIDE.md).
+
 ---
 
 ## Contributing
